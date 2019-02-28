@@ -1,0 +1,96 @@
+html{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+
+  background-image: url("../image/nappe.jpg");
+  margin: 20px;
+  
+  }
+
+main {
+    
+   border: 1px;
+   border-color: grey;
+   border-style: solid;
+   background-color: white;
+   width: 800px;
+   margin: auto;
+   padding: 20px;
+
+
+}
+
+h1,h2,h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.15;
+}
+
+h1 {
+  border-color: #ff827c;
+  border : 1px;
+  border-bottom-style: solid;
+  padding: 20px;
+  margin-top: 0%;
+  text-align: center;
+  
+}
+
+h2 {
+  border-bottom: 1px;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.noMarge {
+
+  margin-top: 0%;
+
+}
+
+div {
+
+ columns: 2;
+ margin-bottom: 40px;
+ width: 100%;
+}
+
+ol {
+  page-break-inside: avoid;
+}
+
+
+.h2Img {
+  width: 50%;
+}
+
+.imgFloat {
+  float: right;
+  width: 40%;
+  margin : 5% 0%;
+  
+}
+
+#fontCustom{
+  width: 100%;
+  margin:40px 0px ;
+ }
+
+ #fontCustom td {
+    
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: red;
+      font-size: 30px;
+      text-align: center;
+ }
+
+ #quantite {
+   text-align: right;
+   width: 3em;
+ }
